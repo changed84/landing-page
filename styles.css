@@ -1,0 +1,23 @@
+* {
+    font-family: roboto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.vl {
+    border-left: 2px solid whitesmoke;
+    height: 25px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.top-cont {
+    display: flex;
+    justify-content: space-around;
+}
