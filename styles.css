@@ -8,6 +8,10 @@ ul {
     gap: 10px;
 }
 
+li {
+
+}
+
 .vl {
     border-left: 2px solid whitesmoke;
     height: 25px;
@@ -15,9 +19,45 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .top-cont {
     display: flex;
     justify-content: space-around;
+    gap: 500px;
+    
 }
+.h-image {
+    margin: 75px 100px 0 0;
+
+}
+.subtitle {
+    color: #E5E7EB;
+}
+
+.lm-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 125px;   
+   
+}
+button {
+    width: 125px;
+}
+
+.all-low-cont {
+    display: flex;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 48px;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+body {
+    background-color: #1F2937;
+}
+
