@@ -68,14 +68,17 @@ body {
     margin: 0;
 }
 
-.mid-pics {
+.mid-section {
     display: flex;
-    height: 150px
+    justify-content: center;
+    gap: 10px;
+    
+}
 
+.mid-pic {
+    justify-content: end;
 }
-.mid-subtitles {
-    display: flex;
-}
+
 .mid-card {
     height: 100vh;
     display: flex;
@@ -83,11 +86,38 @@ body {
     align-items: center;
 }
 
-.mid-pic img {
+.mid-section img {
     height: 175px;
     width: auto;
 }
 
+.mid-title {
+    padding: 50px;
+}
+
+.rods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
