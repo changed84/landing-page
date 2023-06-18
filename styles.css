@@ -26,11 +26,11 @@ a {
     
 }
 .h-image {
-    margin: 75px 100px 0 0;
+    margin: 75px 125px 0 0;
 
 }
 .subtitle {
-    color: #E5E7EB;
+    color: lightslategrey;
 }
 
 .lm-cont {
@@ -40,11 +40,15 @@ a {
    
 }
 button {
-    width: 125px;
-    color: #E5E7EB;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #0088CB;
-    border-radius: 3px;
+    width: 115px;
+    height: 25px;
+    color: whitesmoke;
+    background-color: #0078CB;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    
 }
 
 .hero-cont {
@@ -71,7 +75,7 @@ body {
 .mid-section {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
     
 }
 
@@ -90,6 +94,7 @@ body {
 .mid-section img {
     height: 175px;
     width: auto;
+    border-radius: 3px;
 }
 
 .mid-title {
@@ -132,8 +137,49 @@ body {
     color:#1F2937;
     font-style: italic;
     font-size: 30px;
-    padding: 20px
+    padding: 40px;
+
 }
+
+quote-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    font-weight: 900;
+}
+
+.all-cont {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0088CB;
+    margin: 5% 20%;
+    border-radius: 5px;
+    color: ivory;
+}
+
+.cta1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cta2 {
+    font-weight: 100;
+}
+
+
+
+  
+  
+
+
+
 
 
 
